@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #990000;
+  --secondary-color: #2e6460;
+  --third-color: #080000;
+  --picture-shadow: 1px 1px 10px #2e6460;
+}
+h1,
+h2,
+h3,
+h5,
+p,
+li,
+button {
+  color: var(--primary-color);
+  text-align: center;
+  font-family: monospace;
+  text-shadow: 1px 1px 4px var(--primary-color);
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: var(--third-color);
+}
+h1 {
+  font-size: 74px;
+}
+h2 {
+  font-size: 52px;
+}
+h3 {
+  font-size: 36px;
+}
+h5 {
+  font-size: 24px;
+}
+button {
+  display: block;
+  margin: auto;
+  color: var(--secondary-color);
+  background-color: var(--third-color);
+  border-style: solid;
+  border-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 10px var(--secondary-color);
+  text-shadow: 1px 1px 4px var(--secondary-color);
+}
+button:hover {
+  background-color: var(--secondary-color);
+  box-shadow: 1px 1px 50px var(--secondary-color);
+  color: var(--third-color);
+  border-color: transparent;
+}
+.navbar-logo {
+  width: 60px;
+  height: 60px;
+}
+.navbar-styling {
+  color: var(--primary-color);
+  font-family: monospace;
+  background-color: var(--secondary-color);
+  text-shadow: 1px 1px 4px var(--primary-color);
+}
+.logo {
+  display: block;
+  margin: auto;
+  height: 1000px;
+  width: 1000px;
+  position: relative;
+  bottom: 150px;
+}
+.first-line {
+  position: relative;
+  bottom: 425px;
+}
+.img {
+  box-shadow: var(--picture-shadow);
+  display: block;
+  margin: center;
+}
+.contact-footer {
+  color: var(--primary-color);
+  margin: 50px;
+}
+.contact-btn {
+  margin-top: 50px;
+}
+#workh1 {
+  margin-top: 200px;
+}
