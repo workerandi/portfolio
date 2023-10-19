@@ -1,9 +1,13 @@
-<!DOCTYh6E html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AmbitiousAndiPortfolioMainPage</title>
+    <meta
+      name="description"
+      content="AmbitiousAndi/Erandi Ramriez Oviedo is a front-end web developer"
+    />
+    <title>Portfolio Homepage- Ambitious Andi</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -78,7 +82,7 @@
       </div>
       <h2 id="aboutMe">< About Me/></h2>
       <div class="row row-spacing">
-        <div class="col-6">
+        <div class="col-md-6">
           <h5>Early Interest In STEM</h5>
           <p>
             { I have always been interested in any STEM related subject.
@@ -92,7 +96,7 @@
             say it has been an enjoyable challenge. }
           </p>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <img
             class="img img-fluid"
             alt="My Headshot"
@@ -101,7 +105,7 @@
         </div>
       </div>
       <div class="row row-spacing">
-        <div class="col-6">
+        <div class="col-md-6">
           <h5>SheCodes Student</h5>
           <ul>
             <li>{ SheCodes Basic Alumni }</li>
@@ -109,39 +113,53 @@
             <li>{ SheCodes Responsive Student }</li>
           </ul>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <button class="link-btns">
-            <a href="/work.html">Look At My Work</a>
+            <a title="Work Gallery" href="/work.html">Look At My Work</a>
           </button>
         </div>
       </div>
-      <div class="contact-footer">
+      <footer class="contact-footer">
         <div class="row">
-          <h3>< Contact Me /></h3>
-          <div class="col-3 contact-btn">
+          <h3>< Work Inquiries /></h3>
+        </div>
+        <div class="row">
+          <button class="link-btns" style="width: 200px">
+            <a title="Work Inquiries" href="/contact.html">Contact Me</a>
+          </button>
+        </div>
+        <div class="row">
+          <div class="col-md-3 contact-btn">
             <button class="icons">
-              <a href="mailto:workerandiramirez@gmail.com">
+              <a title="Email" href="mailto:workerandiramirez@gmail.com">
                 <i class="fa-solid fa-envelope"></i>
               </a>
             </button>
           </div>
-          <div class="col-3 contact-btn">
+          <div class="col-md-3 contact-btn">
             <button class="icons">
-              <a href="https://www.instagram.com/ambitionace100/">
+              <a
+                title="Instagram Profile"
+                href="https://www.instagram.com/ambitionace100/"
+              >
                 <i class="fa-brands fa-instagram"></i>
               </a>
             </button>
           </div>
-          <div class="col-3 contact-btn">
+          <div class="col-md-3 contact-btn">
             <button class="icons">
-              <a href="https://www.linkedin.com/in/erandi-ramirez-a93415291/">
+              <a
+                title="LinkedIn Profile"
+                href="https://www.linkedin.com/in/erandi-ramirez-a93415291/"
+              >
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
             </button>
           </div>
-          <div class="col-3 contact-btn">
+          <div class="col-md-3 contact-btn">
             <button class="icons">
               <a
+                title="Youtube Channel Homepage"
                 href="https://www.youtube.com/channel/UC-ke_rxCQNW8mJhzxQhosAQ"
               >
                 <i class="fa-brands fa-youtube"></i>
@@ -149,7 +167,7 @@
             </button>
           </div>
         </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>

@@ -4,6 +4,7 @@
   --third-color: #080000;
   --picture-shadow: 1px 1px 50px #2e6460;
 }
+
 h1,
 h2,
 h3,
@@ -14,7 +15,7 @@ button {
   color: var(--primary-color);
   text-align: center;
   font-family: monospace;
-  text-shadow: 1px 1px 4px var(--primary-color);
+  text-shadow: 1px 1px 20px var(--primary-color);
 }
 
 ul {
@@ -33,7 +34,7 @@ h3 {
   font-size: 36px;
 }
 h5 {
-  font-size: 24px;
+  font-size: 32px;
 }
 p {
   line-height: 2;
@@ -66,6 +67,24 @@ button:hover {
 }
 a:hover {
   color: var(--third-color);
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  .img {
+    width: 300px;
+    max-height: 300px;
+  }
 }
 .navbar-logo {
   width: 60px;
@@ -105,14 +124,15 @@ a:hover {
   color: var(--third-color);
 }
 .link-btns {
-  margin: 70px auto;
+  margin: 50px auto;
+}
+
+.contact-btn {
+  margin-top: 20px;
 }
 .contact-footer {
   color: var(--primary-color);
   margin: 50px;
-}
-.contact-btn {
-  margin-top: 50px;
 }
 #first-line-index {
   position: relative;
@@ -120,7 +140,7 @@ a:hover {
 }
 #first-line-contact {
   position: relative;
-  bottom: 480px;
+  bottom: 450px;
 }
 #workh1 {
   margin-top: 200px;
